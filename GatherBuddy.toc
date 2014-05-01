@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: GatherBuddy
+## Author: Bugs
+## Version: 0.1
+## X-Date: 2014-04-29
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+GatherBuddy.xml
+GatherBuddy_Modules.xml
