@@ -606,8 +606,7 @@ local SKILL_NODES = {
 	},
 };
 
-local function GatherBuddy_Module_Herbalism_HandleNode(line_one, line_two, line_three)
-	line_one =  gsub(gsub(line_one, "|c........", ""), "|r", "");
+local function GatherBuddy_Module_Herbalism_HandleNode(line_one)
 	for node_name, node_data in sortedpairs(SKILL_NODES) do
 		if (string.find(line_one, node_name, 1, true) ~= nil and SKILL_NODES[node_name] ~= nil) then
             local player_skill_level, player_skill_mod = GatherBuddy_Modules_GetSkill(SKILL_NAME);
