@@ -23,7 +23,7 @@ local SKILL_NODES = {
 		["rank"] = 1,
 		["item_id"]  = 2771, --Tin Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 50, 75, 100, 150 },
+		["node_levels"] = { 50, 90, 115, 165 },
 		["zones"] = {
 			"Ashenvale", "Hillsbrad Foothills", "Northern Stranglethorn", "Stonetalon Mountains",
 			"Redridge Mountains", "Duskwood", "Wetlands", "Loch Modan",
@@ -37,7 +37,7 @@ local SKILL_NODES = {
 		["rank"] = 2,
 		["item_id"] = 2775, --Silver Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 65, 85, 110, 160 },
+		["node_levels"] = { 75, 100, 125, 175 },
 		["zones"] = {
 			"Northern Stranglethorn", "Feralas", "Hillsbrad Foothills", "Stonetalon Mountains",
 			"The Cape of Stranglethorn", "Arathi Highlands", "Southern Barrens", "Desolace",
@@ -62,7 +62,7 @@ local SKILL_NODES = {
 		["rank"] = 4,
 		["item_id"] = 2772, --Iron Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 100, 125, 150, 200 },
+		["node_levels"] = { 125, 150, 175, 225 },
 		["zones"] = {
 			"Feralas", "Desolace", "Western Plaguelands", "Eastern Plaguelands",
 			"The Cape of Stranglethorn", "Southern Barrens", "Arathi Highlands", "Thousand Needles",
@@ -74,7 +74,7 @@ local SKILL_NODES = {
 		["rank"] = 5,
 		["item_id"] = 2776, --Gold Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 115, 130, 165, 215 },
+		["node_levels"] = { 155, 175, 205, 255 },
 		["zones"] = {
 			"Felwood", "Western Plaguelands", "Feralas", "Eastern Plaguelands",
 			"Burning Steppes", "Badlands", "Southern Barrens", "Tanaris",
@@ -97,7 +97,7 @@ local SKILL_NODES = {
 		["rank"] = 7,
 		["item_id"] = 3858, --Mithril Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 150, 175, 200, 250 },
+		["node_levels"] = { 175, 200, 225, 275 },
 		["zones"] = {
 			"Thousand Needles", "Badlands", "Burning Steppes", "Searing Gorge",
 			"Felwood", "Eastern Plaguelands", "Tanaris", "Arathi Highlands",
@@ -118,7 +118,7 @@ local SKILL_NODES = {
 		["rank"] = 9,
 		["item_id"] = 7911, --Truesilver Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 165, 190, 215, 265 },
+		["node_levels"] = { 205, 255, 280, 330 },
 		["zones"] = {
 			"Winterspring", "Burning Steppes", "Felwood", "Thousand Needles",
 			"Badlands", "Silithus", "Searing Gorge", "Blasted Lands",
@@ -139,7 +139,7 @@ local SKILL_NODES = {
 		["rank"] = 11,
 		["item_id"] = 11370, --Dark Iron Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 175, 255, 280, 330 },
+		["node_levels"] = { 230, 255, 280, 330 },
 		["zones"] = {
 			"Molten Core", "Blackrock Depths",
 		},
@@ -148,7 +148,7 @@ local SKILL_NODES = {
 		["rank"] = 12,
 		["item_id"] = 10620, --Thorium Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 200, 225, 250, 300 },
+		["node_levels"] = { 230, 270, 280, 345 },
 		["zones"] = {
 			"Winterspring", "Silithus", "Un'Goro Crater", "Swamp of Sorrows",
 			"Blasted Lands",
@@ -167,7 +167,7 @@ local SKILL_NODES = {
 		["rank"] = 14,
 		["item_id"] = 10620, --Thorium Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 215, 240, 265, 315 },
+		["node_levels"] = { 255, 300, 325, 350 },
 		["zones"] = {
 			"Winterspring", "Silithus", "Swamp of Sorrows", "Un'Goro Crater",
 			"Blasted Lands", "Dire Maul",
@@ -182,8 +182,8 @@ local SKILL_NODES = {
 			"Silithus",
 		},
 	},
-
-	--tbc
+    
+    --tbc
 	["Fel Iron Deposit"] = {
 		["rank"] = 16,
 		["item_id"] = 23424, --Fel Iron Ore
@@ -216,7 +216,6 @@ local SKILL_NODES = {
 			"Isle of Quel'Danas", "Blade's Edge Mountains", "Shadow Labyrinth",
 		},
 	},
-	--[[
 	["Nethercite Deposit"] = {
 		["rank"] = 19,
 		["item_id"] = 32464, --Nethercite Ore
@@ -226,7 +225,6 @@ local SKILL_NODES = {
 			"",
 		},
 	},
-	]]--
 	["Khorium Vein"] = {
 		["rank"] = 20,
 		["item_id"] = 23426, --Khorium Ore
@@ -281,7 +279,6 @@ local SKILL_NODES = {
 			"Dragonblight", "Crystalsong Forest",
 		},
 	},
-	--[[
 	["Pure Saronite Deposit"] = {
 		["rank"] = 25,
 		["item_id"] = 36912, --Saronite Ore
@@ -291,7 +288,6 @@ local SKILL_NODES = {
 			"",
 		},
 	},
-	]]--
 	["Titanium Vein"] = {
 		["rank"] = 26,
 		["item_id"] = 36910, --Titanium Ore
@@ -367,7 +363,7 @@ local SKILL_NODES = {
 		["rank"] = 33,
 		["item_id"] = 72092, --Ghost Iron Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 525, 550, 575, 600 },
+		["node_levels"] = { 500, 525, 550, 575 },
 		["zones"] = {
 			"The Jade Forest", "Valley of the Four Winds", "Dread Wastes", "Townlong Steppes",
 			"Kun-Lai Summit", "Krasarang Wilds", "Vale of Eternal Blossoms", "Timeless Isle",
@@ -378,7 +374,7 @@ local SKILL_NODES = {
 		["rank"] = 34,
 		["item_id"] = 72092, --Ghost Iron Ore
 		["ply_level"] = 1,
-		["node_levels"] = { 550, 575, 600, 600 },
+		["node_levels"] = { 540, 575, 590, 590 },
 		["zones"] = {
 			"The Jade Forest", "Valley of the Four Winds", "Dread Wastes", "Kun-Lai Summit",
 			"Townlong Steppes", "Vale of Eternal Blossoms", "Krasarang Wilds", "The Veiled Stair",

@@ -42,7 +42,7 @@ local SKILL_NODES = {
 		["rank"] = 3,
 		["item_id"] = 2449, --Earthroot
 		["ply_level"] = 1,
-		["node_levels"] = { 10, 40, 65, 115 },
+		["node_levels"] = { 1, 40, 65, 115 },
 		["zones"] = {
 			"Silverpine Forest", "Tirisfal Glades", "Elwynn Forest", "Redridge Mountains",
 			"Teldrassil", "Durotar", "Mulgore", "Dun Morogh",
@@ -56,7 +56,7 @@ local SKILL_NODES = {
 		["rank"] = 4,
 		["item_id"] = 785, --Mageroyal
 		["ply_level"] = 1,
-		["node_levels"] = { 50, 75, 100, 150 },
+		["node_levels"] = { 1, 75, 100, 150 },
 		["zones"] = {
 			"Hillsbrad Foothills", "Darkshore", "Silverpine Forest", "Northern Barrens",
 			"Azshara", "Loch Modan", "Redridge Mountains", "Westfall",
@@ -69,7 +69,7 @@ local SKILL_NODES = {
 		["rank"] = 5,
 		["item_id"] = 2450, --Briarthorn
 		["ply_level"] = 1,
-		["node_levels"] = { 70, 95, 120, 170 },
+		["node_levels"] = { 1, 95, 120, 170 },
 		["zones"] = {
 			"Hillsbrad Foothills", "Duskwood", "Darkshore", "Azshara",
 			"Northern Barrens", "Wetlands", "Redridge Mountains", "Westfall",
@@ -81,7 +81,7 @@ local SKILL_NODES = {
 		["rank"] = 6,
 		["item_id"] = 3820, --Stranglekelp
 		["ply_level"] = 1,
-		["node_levels"] = { 85, 110, 135, 185 },
+		["node_levels"] = { 1, 110, 135, 185 },
 		["zones"] = {
 			"Thousand Needles", "Western Plaguelands", "Wetlands", "The Cape of Stranglethorn",
 			"Westfall", "Northern Stranglethorn", "The Hinterlands", "Dustwallow Marsh",
@@ -94,7 +94,7 @@ local SKILL_NODES = {
 		["rank"] = 7,
 		["item_id"] = 2453, --Bruiseweed
 		["ply_level"] = 1,
-		["node_levels"] = { 85, 125, 150, 200 },
+		["node_levels"] = { 1, 125, 150, 200 },
 		["zones"] = {
 			"Northern Stranglethorn", "Wetlands", "Redridge Mountains", "Ashenvale",
 			"Duskwood", "Westfall", "The Hinterlands", "Hillsbrad Foothills",
@@ -493,7 +493,7 @@ local SKILL_NODES = {
 		["rank"] = 47,
 		["item_id"] = 52983, --Cinderbloom
 		["ply_level"] = 1,
-		["node_levels"] = { 425, 450, 475, 525 },
+		["node_levels"] = { 425, 450, 460, 525 },
 		["zones"] = {
 			"Deepholm", "Twilight Highlands", "Mount Hyjal", "Uldum",
 			"Tol Barad Peninsula", "Tol Barad",
@@ -522,7 +522,7 @@ local SKILL_NODES = {
 		["rank"] = 50,
 		["item_id"] = 52986, --Heartblossom
 		["ply_level"] = 1,
-		["node_levels"] = { 475, 500, 525, 550 },
+		["node_levels"] = { 475, 500, 505, 550 },
 		["zones"] = {
 			"Deepholm",
 		},
